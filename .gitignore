@@ -1,0 +1,35 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Logs, temporary files, and local IDE metadata
+*.log
+*.tmp
+*.temp
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Generated plugin outputs and test artifacts
+outputs/
+generated/
+test_outputs/
+*.png
+*.jpg
+*.jpeg
